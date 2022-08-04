@@ -1,0 +1,439 @@
+.container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+}
+
+.container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container-row-reverse {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row-reverse;
+}
+
+.container-row-reverse > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-column {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: column;
+}
+
+.container-column > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-column-revense {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: column-reverse;
+}
+
+.container-column-revense > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-nowrap {
+display: flex;
+background-color: dodgerblue;
+flex-wrap: nowrap;
+}
+.container-nowrap > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-wrap {
+    display: flex;
+    background-color: dodgerblue;
+    flex-wrap: wrap;
+}
+.container-wrap > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-wrap-revence {
+    display: flex;
+    background-color: dodgerblue;
+    flex-wrap: wrap-reverse;
+}
+.container-wrap-revence > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-flex-start {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: flex-start;
+}
+.container-flex-start > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-flex-end {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: flex-end;
+}
+.container-flex-end > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-center {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+.container-center > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-space-between {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-between;
+}
+.container-space-between > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-space-around {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-around;
+}
+.container-space-around > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-space-evenly {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-evenly;
+}
+.container-space-evenly > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-flex-start {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-flex-start > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-flex-end {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-flex-end > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-center {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-center > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-stretch {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: stretch;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-stretch > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-space-between {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-space-between > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-space-around {
+    display: flex;
+    background-color: dodgerblue;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container-space-around > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-flex-start {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: flex-start;
+    height: 200px;
+}
+.container-items-flex-start > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-flex-end {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: flex-end;
+    height: 200px;
+}
+.container-items-flex-end > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-center {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: center;
+    height: 200px;   
+}
+.container-items-center > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-stretch {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: stretch;
+    height: 200px;
+}
+.container-items-stretch > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-baseline {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: baseline;
+    height: 1800px;
+}
+.container-items-baseline > div:nth-child(1) {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-items-baseline > div:nth-child(2) {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 30px;
+    font-size: 40px;
+}
+.container-items-baseline > div:nth-child(3) {
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 40px;
+    font-size: 50px;
+}
+.container-items-baseline > div:nth-child(4) {
+    background-color: #f1f1f1;
+    margin: 40px;
+    padding: 50px;
+    font-size: 60px;
+}
+.container-items-baseline > div:nth-child(5) {
+    background-color: #f1f1f1;
+    margin: 50px;
+    padding: 60px;
+    font-size: 70px;
+}
+.container-order {
+    display: flex;
+    background-color: dodgerblue;
+    height: 300px;
+}
+.container-order > div:nth-child(1) {
+    background-color: #f1f1f1;
+    color: yellow;
+    order: 1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-order > div:nth-child(2) {
+    background-color: #f1f1f1;
+    color: yellow;
+    order: -0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-order > div:nth-child(3) {
+    background-color: #f1f1f1;
+    color: yellow;
+    order: -1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-order > div:nth-child(4) {
+    background-color: #f1f1f1;
+    color: yellow;
+    order: -2;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-order > div:nth-child(5) {
+    background-color: #f1f1f1;
+    color: yellow;
+    order: -3;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-flex-grow {
+    background-color: dodgerblue;
+    display: flex;
+    height: 200px;
+}
+.container-flex-grow > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 1;
+    width: 100px;
+    transition: 1s
+}
+.container-flex-grow > div:hover {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 4;
+    width: 100px;
+}
+.container-flex-shrink {
+    display: flex;
+    background-color: dodgerblue;
+}
+.container-flex-shrink > div {
+    flex-shrink: 1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: #f1f1f1;
+}
+.container-flex-shrink > div:nth-child(3) {
+    flex-shrink: 0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+}
+.container-flex-basis {
+    display: flex;
+    background-color: dodgerblue;
+}
+.container-flex-basis > div {
+    flex-basis: 200px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+}
+.container-flex {
+    display: flex;
+    background-color: dodgerblue;
+}
+.container-flex > div {
+    flex: 10px ;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+}
+.container-align-self {
+    display: flex;
+    background-color: dodgerblue;
+    height: 200px;
+    align-items: flex-start;
+}
+.container-align-self > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.container-align-self > div:hover {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    align-self: center;
+}
